@@ -1,1 +1,2 @@
-/build
+cat shizuku > $PREFIX/bin/shizuku && chmod 755 $PREFIX/bin/shizuku
+cat shizuku.dex > $PREFIX/bin/shizuku.dex && chmod 755 $PREFIX/bin/shizuku.dex && shizuku sh
